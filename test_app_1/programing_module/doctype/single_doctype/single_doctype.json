@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-14 10:40:42.073352",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "aadsasd",
+  "asdasd",
+  "child_doc"
+ ],
+ "fields": [
+  {
+   "fieldname": "aadsasd",
+   "fieldtype": "Data",
+   "label": "aadsasd"
+  },
+  {
+   "fieldname": "asdasd",
+   "fieldtype": "Data",
+   "label": "asdasd"
+  },
+  {
+   "fieldname": "child_doc",
+   "fieldtype": "Table",
+   "label": "Child Doc",
+   "options": "Child  Doc"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-11-14 13:39:23.836317",
+ "modified_by": "Administrator",
+ "module": "programing module",
+ "name": "Single Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

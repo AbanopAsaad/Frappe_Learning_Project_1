@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "abc-cdc",
+ "creation": "2023-11-14 10:29:34.505765",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "abc",
+  "cde",
+  "child_doc"
+ ],
+ "fields": [
+  {
+   "fieldname": "abc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ABC"
+  },
+  {
+   "fieldname": "cde",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CDE"
+  },
+  {
+   "fieldname": "child_doc",
+   "fieldtype": "Table",
+   "label": "Child Doc",
+   "options": "Child  Doc"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-14 14:47:12.530492",
+ "modified_by": "Administrator",
+ "module": "programing module",
+ "name": "Normal DocType",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

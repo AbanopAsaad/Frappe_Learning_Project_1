@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-14 13:38:04.782087",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "aaa",
+  "eeee",
+  "cccc",
+  "data_vhwck"
+ ],
+ "fields": [
+  {
+   "fieldname": "aaa",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "aaa"
+  },
+  {
+   "fieldname": "eeee",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "eeee"
+  },
+  {
+   "fieldname": "cccc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "cccc"
+  },
+  {
+   "fieldname": "data_vhwck",
+   "fieldtype": "Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-14 13:40:11.154029",
+ "modified_by": "Administrator",
+ "module": "programing module",
+ "name": "Child  Doc",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

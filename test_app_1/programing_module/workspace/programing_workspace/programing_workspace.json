@@ -1,0 +1,81 @@
+{
+ "cards_label": "Link",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2023-11-14 14:28:07.869571",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Programing Workspace",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Normal DocType",
+   "link_to": "Normal DocType",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Submitiable",
+   "link_to": "Submitiable",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Link2",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Single Doctype",
+   "link_to": "Single Doctype",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-14 14:36:13.624878",
+ "modified_by": "Administrator",
+ "module": "programing module",
+ "name": "Programing Workspace",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Normal DocType",
+   "link_to": "Normal DocType",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Submitiable",
+   "link_to": "Submitiable",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Single Doctype",
+   "link_to": "Single Doctype",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": "Shortcut"
+}

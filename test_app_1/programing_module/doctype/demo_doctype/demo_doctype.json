@@ -1,0 +1,144 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-13 09:17:42.931085",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "attach",
+  "attach_image",
+  "barcode",
+  "button",
+  "check",
+  "color",
+  "currency",
+  "data",
+  "column_break_u00i6",
+  "date",
+  "date_and_time",
+  "float",
+  "int_vw7vi",
+  "link",
+  "data_dclp7",
+  "section_break_xsbyd",
+  "text"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "first name"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "attach"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "attach image"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Barcode",
+   "label": "Barcode"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "button"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "check"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "color"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "currency"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "Data",
+   "label": "data"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "date"
+  },
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "label": "date and time"
+  },
+  {
+   "fieldname": "float",
+   "fieldtype": "Float",
+   "label": "float"
+  },
+  {
+   "fieldname": "int_vw7vi",
+   "fieldtype": "Int",
+   "label": "int"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Link",
+   "label": "link",
+   "options": "ToDo"
+  },
+  {
+   "fieldname": "data_dclp7",
+   "fieldtype": "Select",
+   "label": "select",
+   "options": "a\nb\nc"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Text",
+   "label": "text"
+  },
+  {
+   "fieldname": "column_break_u00i6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_xsbyd",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-13 10:46:17.204579",
+ "modified_by": "Administrator",
+ "module": "programing module",
+ "name": "demo doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
