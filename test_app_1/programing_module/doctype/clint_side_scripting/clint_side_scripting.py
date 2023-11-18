@@ -17,3 +17,6 @@ class Clintsidescripting(Document):
 
 		frappe.msgprint(msg)
 		# return "Hi this message from .py of the client side scripting"
+
+
+		# wow
