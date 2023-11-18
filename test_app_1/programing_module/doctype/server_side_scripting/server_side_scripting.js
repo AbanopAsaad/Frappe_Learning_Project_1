@@ -14,7 +14,7 @@ frappe.ui.form.on('Server Side Scripting', {
 		frappe.call({
 
 				// full method path 
-                method:"test_app_1.programing_module.doctype.clint_side_scripting.clint_side_scripting.xxx",
+                method:"test_app_1.programing_module.doctype.clint_side_scripting.clint_side_scripting.frappe_call",
                 args : {
 
 					msg : "Argument sent form server side scripting.js to client side scripting.py"

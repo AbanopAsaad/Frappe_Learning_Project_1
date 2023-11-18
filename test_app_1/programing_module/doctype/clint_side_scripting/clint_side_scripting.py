@@ -9,7 +9,7 @@ class Clintsidescripting(Document):
 
 	# the msg in passed from the .js of server side scripting.js
 	@frappe.whitelist()
-	def xxx(self,msg):
+	def frappe_call(self,msg):
 		# self.email="abanop_asaad@yahoo.com"
 
 		import time
