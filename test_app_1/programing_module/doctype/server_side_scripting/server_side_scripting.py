@@ -32,7 +32,8 @@ class ServerSideScripting(Document):
 		# self.set_value()
 		# self.is_document_exist()
 		# self.count_documents_with_field_enabled()
-		self.sql_query()
+		# self.sql_query()
+		pass
 
 	
 
