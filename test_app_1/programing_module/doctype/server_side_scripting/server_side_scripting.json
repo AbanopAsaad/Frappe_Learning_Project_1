@@ -7,7 +7,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "enabled",
+  "check_box",
   "clint_side_scripting",
   "first_name",
   "middle_name",
@@ -24,14 +24,9 @@
  ],
  "fields": [
   {
-   "default": "0",
-   "fieldname": "enabled",
-   "fieldtype": "Check",
-   "label": "enabled"
-  },
-  {
    "fieldname": "first_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "first name"
   },
   {
@@ -97,12 +92,18 @@
    "fieldtype": "Link",
    "label": "Clint Side Scripting",
    "options": "Clint side scripting"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_box",
+   "fieldtype": "Check",
+   "label": "Check Box"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-11-16 11:43:30.505560",
+ "modified": "2023-11-20 09:37:08.800643",
  "modified_by": "Administrator",
  "module": "programing module",
  "name": "Server Side Scripting",
