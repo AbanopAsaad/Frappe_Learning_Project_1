@@ -33,8 +33,17 @@ def execute(filters=None):
         #     "age": d.get("age")  # Accessing 'age' key from d with default value
         # }
         data.append(row)
+    
+    # lets add a chart to the table
+    chart = get_chart_data(data)
 
-    return columns, data
+    # lets add reprot summaries to the table
+    report_summary = get_report_summary(data)
+
+
+    
+
+    return columns, data , None , chart , report_summary
 
 
 
@@ -118,3 +127,74 @@ def get_conditions(filters):
     # if filters.get("age"):
     #     conditions.append(["age", "=", filters.get("age")])
     return conditions
+
+
+
+
+def get_chart_data(data):
+    if not data:
+        return None
+    
+    labels = ["Age <= 45", "Age > 45"]
+
+    age_data = {
+        "Age <= 45": 0,
+        "Age > 45": 0
+    }
+
+    datasets = []
+
+    for d in data:
+        if d.age <= 45:
+            age_data["Age <= 45"] += 1
+        else:
+            age_data["Age > 45"] += 1
+
+    datasets.append({
+        "Name": "Age Status",
+        "values": [age_data["Age <= 45"], age_data["Age > 45"]]
+    })
+
+    chart = {
+        "data" : {
+            "labels": labels,
+            "datasets": datasets
+        },
+        # "type" : "pie",
+        # "type" : "line",
+        "type" : "bar",
+        "hight": 300,
+    }
+
+    return chart
+
+
+
+
+def get_report_summary(data):
+    if not data :
+        return None
+    age_below_45=0
+    age_above_45=0
+
+    for entry in data :
+        if entry.age <= 45:
+            age_below_45 += 1
+        else:
+            age_above_45 += 1
+    
+    return [
+        {
+            "value" : age_below_45,
+            "label" : "Age <= 45",
+            "datatype" : "Int",
+            "indicator" :"Green"
+        },
+        {
+            "value" : age_above_45,
+            "label" : "Age > 45",
+            "datatype" : "Int",
+            "indicator" :"Red"
+        }        
+
+    ]
