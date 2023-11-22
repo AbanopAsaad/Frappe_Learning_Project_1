@@ -50,7 +50,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-11-14 14:36:13.624878",
+ "modified": "2023-11-20 17:11:27.627439",
  "modified_by": "Administrator",
  "module": "programing module",
  "name": "Programing Workspace",
@@ -75,6 +75,12 @@
    "label": "Single Doctype",
    "link_to": "Single Doctype",
    "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Programing Dashboard",
+   "link_to": "Programing Dashboard",
+   "type": "Dashboard"
   }
  ],
  "shortcuts_label": "Shortcut"

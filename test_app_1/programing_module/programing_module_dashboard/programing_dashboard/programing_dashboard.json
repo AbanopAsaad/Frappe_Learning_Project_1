@@ -1,0 +1,30 @@
+{
+ "cards": [
+  {
+   "card": "Card-1 For dashboard of the Prograimg module"
+  }
+ ],
+ "chart_options": "",
+ "charts": [
+  {
+   "chart": "Dashboard of PM For Number OF records of Doctype(Server Side Scripting)",
+   "width": "Full"
+  },
+  {
+   "chart": "Age Status Chart From Script Report",
+   "width": "Full"
+  }
+ ],
+ "creation": "2023-11-20 16:38:51.669187",
+ "dashboard_name": "Programing Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2023-11-20 17:08:42.821049",
+ "modified_by": "Administrator",
+ "module": "programing module",
+ "name": "Programing Dashboard",
+ "owner": "Administrator"
+}
